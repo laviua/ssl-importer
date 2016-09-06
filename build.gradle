@@ -1,0 +1,20 @@
+group 'ua.com.lavi'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+apply from: "$rootDir/gradle-tasks/findbugs.gradle"
+
+mainClassName = 'ua.com.lavi.ssl.SSLImporter'
+
+dependencies {
+    testCompile 'org.testng:testng:6.9.10'
+}

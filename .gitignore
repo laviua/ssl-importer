@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+# Common git ignore for platform folder
+
+# IntelliJ
+**/.idea/
+**/*.eml
+**/*.iml
+**/*.iws
+**/*.ipr
+classes/
+
+# Gradle
+.gradle/
+**/build/
+**/gradlew*
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 82f9607e1cd58a6dde7ebc46756b29f007ac1ba0
