@@ -21,7 +21,7 @@ public class SSLImporter {
     public static void main(String[] args) throws Exception {
 
         if (args.length == 0 || args.length > 2) {
-            System.out.println("Usage: java SSLImporter <host>:<port> [passPhrase]. Default passPhrase is: " + DEFAULT_PASSPHRASE);
+            System.out.println("Usage: ssl-importer <host>:<port> [passPhrase]. Default passPhrase is: " + DEFAULT_PASSPHRASE);
             return;
         }
 
